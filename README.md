@@ -1,6 +1,6 @@
 # C# / .NET ナレッジベース
 
-![C# / .NET ナレッジベース](docs/_assets/readme-banner.svg)
+![C# / .NET ナレッジベース](docs/_assets/readme_banner.png)
 
 このリポジトリは MkDocs / Material for MkDocs で静的サイト化する C# / .NET 学習ナレッジベースです。
 
