@@ -1,0 +1,55 @@
+# ValueTask
+
+## 目的
+
+`Task` と `ValueTask` の違いと、`ValueTask` を使うべき場面を理解します。
+
+## 前提
+
+- [Task の基本](01_Taskの基本.md) を読んでいる
+- [async / await](02_async-await.md) を読んでいる
+
+## 要点
+
+- `ValueTask<T>` は結果が同期的に返ることが多い high throughput API で allocation を抑えるための選択肢です。
+- 通常の application code では `Task` を優先します。
+- `ValueTask` は扱いを誤ると複雑になるため、public API で使う前に理由を明確にします。
+
+## コード例
+
+```csharp
+// この例では cache hit 時に同期的に値を返します。
+public ValueTask<string> GetNameAsync(int id)
+{
+    if (cache.TryGetValue(id, out var name))
+    {
+        return ValueTask.FromResult(name);
+    }
+
+    return new ValueTask<string>(LoadNameAsync(id));
+}
+```
+
+## コードの読み方
+
+cache に値がある場合は、`Task` object を作らず `ValueTask.FromResult` で返します。cache miss の場合は通常の非同期処理 `LoadNameAsync` に委譲します。
+
+## 実務での使い方
+
+framework、serializer、buffer、cache など、非常に高頻度で呼ばれる API で検討します。Web API の controller や service の通常処理では、読みやすさと一貫性のため `Task` で十分なことがほとんどです。
+
+## よくあるミス
+
+- 何となく性能がよさそうという理由で全 API を `ValueTask` にする。
+- `ValueTask` を複数回 await できると思う。
+- 計測せずに最適化する。
+
+## 練習問題
+
+1. cache hit が多い method を `Task` と `ValueTask` で比較する。
+2. `ValueTask` を使う理由をコメントなしで説明できるか確認する。
+3. 通常の service method では `Task` を選ぶ理由を説明する。
+
+## 関連リンク
+
+- [ValueTask Struct](https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask)

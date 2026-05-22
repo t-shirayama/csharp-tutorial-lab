@@ -1,0 +1,212 @@
+:root {
+  --md-text-font-size: 0.78rem;
+  --site-footer-height: 1.75rem;
+  --site-footer-clearance: 2.75rem;
+  --code-bg: #1f2430;
+  --code-fg: #d7dce2;
+  --code-border: #3a4252;
+}
+
+.md-main__inner {
+  margin-top: 1.2rem;
+}
+
+.md-content__inner {
+  padding-bottom: calc(var(--site-footer-clearance) + 1rem);
+}
+
+.md-sidebar__scrollwrap {
+  padding-bottom: calc(var(--site-footer-clearance) + 0.5rem);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar {
+    height: calc(100vh - 2.4rem - var(--site-footer-clearance));
+  }
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  border-right: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+  border-left: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset {
+  line-height: 1.75;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.md-typeset h2 {
+  margin-top: 1.35rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset code {
+  font-family: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
+  border-radius: 0.25rem;
+  font-size: 0.78em;
+}
+
+.md-typeset pre > code {
+  padding: 0.8rem 0.9rem;
+  font-family: "Cascadia Code", "JetBrains Mono", Consolas, "Courier New", monospace;
+  font-size: 0.72rem;
+  line-height: 1.55;
+}
+
+.md-typeset .highlight {
+  margin: 1rem 0 1.25rem;
+}
+
+.md-typeset .highlight pre {
+  border: 1px solid var(--code-border);
+  border-radius: 0.35rem;
+  background: var(--code-bg);
+  color: var(--code-fg);
+}
+
+.md-typeset .highlight code {
+  background: var(--code-bg);
+  color: var(--code-fg);
+}
+
+.md-typeset .highlight .linenos,
+.md-typeset .highlight .linenodiv {
+  color: #7f8794;
+  background: var(--code-bg);
+}
+
+.md-typeset .highlight .k,
+.md-typeset .highlight .kc,
+.md-typeset .highlight .kd,
+.md-typeset .highlight .kn,
+.md-typeset .highlight .kp,
+.md-typeset .highlight .kr,
+.md-typeset .highlight .ow {
+  color: #82aaff !important;
+  font-weight: 600;
+}
+
+.md-typeset .highlight .kt,
+.md-typeset .highlight .nc,
+.md-typeset .highlight .nn,
+.md-typeset .highlight .nt {
+  color: #89ddff !important;
+}
+
+.md-typeset .highlight .nf,
+.md-typeset .highlight .fm,
+.md-typeset .highlight .nb {
+  color: #dcdcaa !important;
+}
+
+.md-typeset .highlight .na,
+.md-typeset .highlight .nd,
+.md-typeset .highlight .nl,
+.md-typeset .highlight .nv,
+.md-typeset .highlight .vc,
+.md-typeset .highlight .vg,
+.md-typeset .highlight .vi {
+  color: #c5d6f0 !important;
+}
+
+.md-typeset .highlight .s,
+.md-typeset .highlight .s1,
+.md-typeset .highlight .s2,
+.md-typeset .highlight .se,
+.md-typeset .highlight .sh,
+.md-typeset .highlight .si,
+.md-typeset .highlight .sr,
+.md-typeset .highlight .ss {
+  color: #c3a07b !important;
+}
+
+.md-typeset .highlight .mi,
+.md-typeset .highlight .mf,
+.md-typeset .highlight .mh,
+.md-typeset .highlight .mo,
+.md-typeset .highlight .il {
+  color: #b7a9d6 !important;
+}
+
+.md-typeset .highlight .c,
+.md-typeset .highlight .c1,
+.md-typeset .highlight .cm,
+.md-typeset .highlight .cs {
+  color: #8fbf8f !important;
+  font-style: normal;
+}
+
+.md-typeset .highlight .n,
+.md-typeset .highlight .nx,
+.md-typeset .highlight .bp {
+  color: #d7dce2 !important;
+}
+
+.md-typeset .highlight .gd {
+  color: #d69a9a !important;
+}
+
+.md-typeset .highlight .gi {
+  color: #8fbf8f !important;
+}
+
+.md-typeset .highlight .o,
+.md-typeset .highlight .p {
+  color: #d7dce2 !important;
+}
+
+.md-footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  background: #263238 !important;
+  box-shadow: 0 -0.15rem 0.5rem rgba(0, 0, 0, 0.14);
+}
+
+.md-footer__inner {
+  min-height: var(--site-footer-height);
+  max-width: 52rem;
+  padding: 0 0.4rem;
+  background: #263238 !important;
+}
+
+.md-footer__link {
+  flex: 0 1 22rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 0.25rem;
+  background: #263238 !important;
+}
+
+.md-footer__link:hover {
+  background: #37474f !important;
+}
+
+.md-footer__title {
+  overflow: hidden;
+  font-size: 0.64rem;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.md-footer__direction {
+  font-size: 0.5rem;
+}
+
+.md-footer__button {
+  margin: 0.08rem;
+}
+
+.md-footer-meta {
+  display: none;
+}
