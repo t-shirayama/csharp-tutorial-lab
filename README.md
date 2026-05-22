@@ -34,6 +34,7 @@ docker compose down
 このリポジトリでは、ドキュメントサイトそのものだけでなく、依存関係、GitHub Actions、Dockerfile、秘密情報の混入を CI で継続的に確認します。
 
 - [Dependabot](.github/dependabot.yml) で GitHub Actions、Python 依存、Docker、Docker Compose の更新を監視します。
+- Dependabot が作る PR は `develop` 宛にし、`main` へは `develop` からレビュー済み PR で反映します。
 - [Security checks](.github/workflows/security.yml) で MkDocs の strict build、Dependency Review、GitHub Actions workflow の静的解析、secret scan、Dockerfile lint を実行します。
 - [CodeQL](.github/workflows/codeql.yml) で GitHub Actions workflow 定義を code scanning にかけます。
 - [OpenSSF Scorecard](.github/workflows/scorecard.yml) で supply chain security の状態を定期確認し、結果を code scanning にアップロードします。
@@ -43,3 +44,8 @@ docker compose down
 - 各 workflow では、可能な限り `GITHUB_TOKEN` の権限を最小化し、`actions/checkout` の credential 永続化を無効にします。
 
 GitHub 側では、`Settings` → `Code security and analysis` で secret scanning と push protection を有効化し、`Rulesets` または branch protection で主要な security check を必須にします。
+
+## ブランチ運用
+
+- `develop`: Dependabot や通常変更の PR 先。CI で security check と CodeQL を確認します。
+- `main`: GitHub Pages の公開元。`develop` から PR で取り込み、直接 push しません。
