@@ -90,13 +90,6 @@ git switch -c feature/add-order-validation
 - token や password を command history、issue、チャットに貼り付ける。
 - `bin` や `obj` の生成物を commit しようとする。
 
-## 練習問題
-
-1. 任意の練習 repository を clone する。
-2. `git status` で差分がないことを確認する。
-3. `dotnet restore` と `dotnet build` を実行する。
-4. 作業 branch を作成して、再度 `git status` を確認する。
-
 ## 関連リンク
 
 - [Git for Windows](https://gitforwindows.org/)

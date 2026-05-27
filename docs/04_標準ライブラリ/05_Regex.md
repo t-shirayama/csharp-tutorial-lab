@@ -36,12 +36,6 @@ Console.WriteLine(isValid);
 - `^` と `$` を忘れて部分一致になっている。
 - ユーザー入力の正規表現で性能問題を起こす。
 
-## 練習問題
-
-1. 郵便番号形式をチェックする。
-2. 文字列から数字だけを抽出する。
-3. 部分一致と完全一致の違いを確認する。
-
 ## 関連リンク
 
 - [Regular expressions in .NET](https://learn.microsoft.com/dotnet/standard/base-types/regular-expressions)

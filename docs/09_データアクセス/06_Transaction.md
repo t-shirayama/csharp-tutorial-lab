@@ -20,12 +20,6 @@
 - 失敗時の rollback とログ方針がない。
 - 分離レベルを理解せずロック問題を起こす。
 
-## 練習問題
-
-1. 2つの更新が片方だけ成功すると困る例を挙げる。
-2. トランザクション境界をどこに置くか考える。
-3. 外部 API と DB 更新の整合性問題を調べる。
-
 ## 関連リンク
 
 - [Using transactions](https://learn.microsoft.com/ef/core/saving/transactions)

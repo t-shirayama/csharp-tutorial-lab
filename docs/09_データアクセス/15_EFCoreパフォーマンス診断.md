@@ -87,13 +87,6 @@ PR で query を変更したら、生成 SQL、想定件数、index の有無を
 - `ToListAsync()` の前に `Where` や `Take` を書かず、メモリ上で絞り込む。
 - SQL を見ずに LINQ の見た目だけで性能を判断する。
 
-## 練習問題
-
-1. `ToQueryString()` で生成 SQL を表示する。
-2. `AsNoTracking()` あり、なしの違いを説明する。
-3. 一覧 API の query を response DTO への projection に変える。
-4. `Include` が必要な query と不要な query を分類する。
-
 ## 関連リンク
 
 - [EF Core クエリ設計](08_EFCoreクエリ設計.md)

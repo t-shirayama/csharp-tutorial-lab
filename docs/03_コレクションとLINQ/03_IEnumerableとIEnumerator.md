@@ -36,12 +36,6 @@ foreach (var number in numbers)
 - 件数が必要なのに毎回 `Count()` を呼ぶ。
 - 遅延評価を理解せず、実行タイミングを誤解する。
 
-## 練習問題
-
-1. `List<string>` を `IEnumerable<string>` 変数に代入する。
-2. `foreach` で表示する。
-3. `ToList()` した場合との違いを説明する。
-
 ## 関連リンク
 
 - [IEnumerable&lt;T&gt;](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)

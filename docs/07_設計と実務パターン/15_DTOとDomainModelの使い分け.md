@@ -119,12 +119,6 @@ API 境界では Request / Response DTO を使い、業務ルールは Domain Mo
 
 AutoMapper のような mapper を使うか、手書き mapping にするかは、変換の複雑さと見通しで判断します。業務上の意味がある変換は、暗黙的に隠しすぎず、明示的に書く方がレビューしやすい場合があります。
 
-## 練習問題
-
-1. DB Entity をそのまま返している API を Response DTO に変換する。
-2. Request DTO から Domain Model を生成する処理を書き、validation の場所を説明する。
-3. DTO、Domain Model、EF Core Entity を分けるべきケースと、分けなくてもよいケースを比較する。
-
 ## 関連リンク
 
 - [Common web application architectures](https://learn.microsoft.com/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures)

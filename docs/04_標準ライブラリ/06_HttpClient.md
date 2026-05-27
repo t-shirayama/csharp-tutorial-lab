@@ -43,12 +43,6 @@ Console.WriteLine(body.Length);
 - ステータスコードを見ずに本文だけ読む。
 - タイムアウトやキャンセルを設定しない。
 
-## 練習問題
-
-1. GET リクエストを送り、ステータスコードを表示する。
-2. 失敗時に `EnsureSuccessStatusCode` の挙動を確認する。
-3. `CancellationToken` を渡す形に書き換える。
-
 ## 関連リンク
 
 - [HttpClient](https://learn.microsoft.com/dotnet/fundamentals/networking/http/httpclient)

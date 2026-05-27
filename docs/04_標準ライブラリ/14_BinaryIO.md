@@ -51,12 +51,6 @@ using (var reader = new BinaryReader(stream, Encoding.UTF8))
 - format version を持たず、将来変更できなくなる。
 - text data なのに binary として扱い、調査しにくくする。
 
-## 練習問題
-
-1. `int` と `string` を binary file に書く。
-2. 書いた順番と逆に読んだらどうなるか確認する。
-3. format version として先頭に `int` を追加する。
-
 ## 関連リンク
 
 - [BinaryReader Class](https://learn.microsoft.com/dotnet/api/system.io.binaryreader)

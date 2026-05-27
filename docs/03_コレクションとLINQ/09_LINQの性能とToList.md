@@ -55,12 +55,6 @@ var first = targets.FirstOrDefault();
 - 同じ `IEnumerable<T>` を複数回列挙していないか。
 - DB で絞るべき処理をメモリ上で行っていないか。
 
-## 練習問題
-
-1. `Where` の条件が何回呼ばれるか確認する。
-2. `ToList()` の前後で挙動を比較する。
-3. EF Core で `ToListAsync()` の位置を説明する。
-
 ## 関連リンク
 
 - [Classification of standard query operators by manner of execution](https://learn.microsoft.com/dotnet/csharp/linq/get-started/introduction-to-linq-queries)

@@ -43,12 +43,6 @@ Console.WriteLine(message);
 - `ToString()` を loop の中で何度も呼ぶ。
 - SQL や HTML を安全化せずに文字列連結する。
 
-## 練習問題
-
-1. 10 行の report text を `StringBuilder` で作る。
-2. `+` 連結版と読みやすさを比較する。
-3. SQL 生成に使う場合の危険性を説明する。
-
 ## 関連リンク
 
 - [StringBuilder Class](https://learn.microsoft.com/dotnet/api/system.text.stringbuilder)

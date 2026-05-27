@@ -53,12 +53,6 @@ await output.Completion;
 - `Completion` を待たず、処理途中でアプリが終了する。
 - 並列度や bounded capacity を設定せず、外部サービスへ過剰に流す。
 
-## 練習問題
-
-1. `TransformBlock<int, int>` で 2 倍にする pipeline を作る。
-2. `ActionBlock<int>` で出力する。
-3. bounded capacity を設定して backpressure を確認する。
-
 ## 関連リンク
 
 - [Dataflow](https://learn.microsoft.com/dotnet/standard/parallel-programming/dataflow-task-parallel-library)

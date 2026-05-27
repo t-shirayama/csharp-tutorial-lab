@@ -42,12 +42,6 @@ thread.Join();
 - thread を作りすぎて context switch を増やす。
 - ASP.NET Core request 内で長時間 thread を占有する。
 
-## 練習問題
-
-1. `Thread` で message を出す。
-2. 同じ処理を `Task.Run` で書く。
-3. どちらが実務で扱いやすいか説明する。
-
 ## 関連リンク
 
 - [Thread Class](https://learn.microsoft.com/dotnet/api/system.threading.thread)

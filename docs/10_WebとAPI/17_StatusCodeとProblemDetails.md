@@ -87,13 +87,6 @@ API 利用者は status code と error body を見て retry、再ログイン、
 - stack trace や内部 ID を error response に出す。
 - endpoint ごとに error response の property 名が違う。
 
-## 練習問題
-
-1. 必須入力不足を `ProblemDetails` の `400` で返す。
-2. resource が見つからない場合に `404` を返す。
-3. 重複登録を `409` で返す。
-4. 認証失敗と権限不足の response を分ける。
-
 ## 関連リンク
 
 - [Request / Response](05_RequestResponse.md)

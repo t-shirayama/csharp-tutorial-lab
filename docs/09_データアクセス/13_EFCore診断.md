@@ -50,12 +50,6 @@ Console.WriteLine(query.ToQueryString());
 - index がない列で検索や sort を行う。
 - 開発 DB の少量データだけで問題なしと判断する。
 
-## 練習問題
-
-1. 既存 query に `ToQueryString()` を付けて SQL を確認する。
-2. `Select` で必要な列だけ取得する形に変える。
-3. 検索条件に対応する index があるか確認する。
-
 ## 関連リンク
 
 - [Efficient querying](https://learn.microsoft.com/ef/core/performance/efficient-querying)

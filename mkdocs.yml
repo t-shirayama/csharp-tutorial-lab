@@ -59,20 +59,20 @@ nav:
   - ロードマップ: roadmap.md
   - 全記事索引: index_page.md
   - 用語集: glossary.md
+  - 環境構築:
+      - 'Overview': 00_環境構築/README.md
+      - '.NET SDK のインストールと確認': 00_環境構築/01_dotnet-sdk.md
+      - 'VS Code と C# Dev Kit': 00_環境構築/02_vscode-csharp.md
+      - 'プロジェクト作成と実行': 00_環境構築/03_プロジェクト作成と実行.md
+      - 'SDK バージョン管理': 00_環境構築/04_SDKバージョン管理.md
+      - '初期トラブルシュート': 00_環境構築/05_初期トラブルシュート.md
+      - 'インストール手順チェックリスト': 00_環境構築/06_インストール手順チェックリスト.md
+      - 'Git とリポジトリ取得': 00_環境構築/07_Gitとリポジトリ取得.md
+      - 'NuGet 復元とパッケージソース': 00_環境構築/08_NuGet復元とパッケージソース.md
+      - 'テストプロジェクト付き solution': 00_環境構築/09_テストプロジェクト付きsolution.md
+      - 'VS Code デバッグ設定': 00_環境構築/10_VSCodeデバッグ設定.md
+      - '環境情報の記録テンプレート': 00_環境構築/11_環境情報の記録テンプレート.md
   - 基礎編:
-      - '00_環境構築':
-          - 'Overview': 00_環境構築/README.md
-          - '.NET SDK のインストールと確認': 00_環境構築/01_dotnet-sdk.md
-          - 'VS Code と C# Dev Kit': 00_環境構築/02_vscode-csharp.md
-          - 'プロジェクト作成と実行': 00_環境構築/03_プロジェクト作成と実行.md
-          - 'SDK バージョン管理': 00_環境構築/04_SDKバージョン管理.md
-          - '初期トラブルシュート': 00_環境構築/05_初期トラブルシュート.md
-          - 'インストール手順チェックリスト': 00_環境構築/06_インストール手順チェックリスト.md
-          - 'Git とリポジトリ取得': 00_環境構築/07_Gitとリポジトリ取得.md
-          - 'NuGet 復元とパッケージソース': 00_環境構築/08_NuGet復元とパッケージソース.md
-          - 'テストプロジェクト付き solution': 00_環境構築/09_テストプロジェクト付きsolution.md
-          - 'VS Code デバッグ設定': 00_環境構築/10_VSCodeデバッグ設定.md
-          - '環境情報の記録テンプレート': 00_環境構築/11_環境情報の記録テンプレート.md
       - '01_基礎文法':
           - 'Overview': 01_基礎文法/README.md
           - 'C# のプログラム構造': 01_基礎文法/01_プログラム構造.md
@@ -306,6 +306,7 @@ nav:
           - 'AssemblyLoadContext とプラグイン': 13_ランタイムと高度なCSharp/06_AssemblyLoadContextとプラグイン.md
           - 'Span と Memory': 13_ランタイムと高度なCSharp/07_SpanとMemory.md
           - 'ReadOnlySequence と Pipelines': 13_ランタイムと高度なCSharp/08_ReadOnlySequenceとPipelines.md
+  - 演習問題: 80_演習問題/README.md
   - 逆引き:
       - 'Overview': 90_逆引き/README.md
       - '`dotnet` が見つからない': 90_逆引き/01_dotnetが見つからない.md

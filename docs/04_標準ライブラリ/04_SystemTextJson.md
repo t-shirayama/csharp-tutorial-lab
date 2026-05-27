@@ -41,12 +41,6 @@ API のリクエスト/レスポンス、設定ファイル、外部サービス
 - C# のプロパティ名変更が JSON 契約を壊すことに気づかない。
 - 日時や enum の表現を決めずに API を公開する。
 
-## 練習問題
-
-1. record を JSON に変換する。
-2. JSON から record に戻す。
-3. camelCase にする option を調べて試す。
-
 ## 関連リンク
 
 - [System.Text.Json](https://learn.microsoft.com/dotnet/standard/serialization/system-text-json/overview)

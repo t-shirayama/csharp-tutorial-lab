@@ -41,12 +41,6 @@ static IReadOnlyList<string> FindNames(string keyword)
 - null と空の意味を決めずに実装する。
 - `items.Count == 0` を呼ぶ前に items が null かどうかを考えていない。
 
-## 練習問題
-
-1. 条件に合う商品がない場合に空リストを返すメソッドを書く。
-2. null を受け取った場合に例外にするか空扱いにするかを決める。
-3. 呼び出し側の null チェックが減る API に書き換える。
-
 ## 関連リンク
 
 - [Nullable reference types](https://learn.microsoft.com/dotnet/csharp/nullable-references)

@@ -50,12 +50,6 @@ SPA と API の domain が違う場合、開発環境と本番環境で許可 or
 - 本番で localhost を許可したままにする。
 - CORS を設定すれば API が安全になると思う。
 
-## 練習問題
-
-1. 開発用 origin と本番用 origin を分けて設定する。
-2. preflight request が発生する条件を調べる。
-3. 認証 cookie を送る場合の CORS 設定を確認する。
-
 ## 関連リンク
 
 - [Enable Cross-Origin Requests](https://learn.microsoft.com/aspnet/core/security/cors)

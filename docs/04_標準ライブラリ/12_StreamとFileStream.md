@@ -44,12 +44,6 @@ await source.CopyToAsync(destination);
 - `Dispose` せず file handle を開いたままにする。
 - 文字列データなのに encoding を考えない。
 
-## 練習問題
-
-1. 小さなテキストファイルを `File.ReadAllText` で読む。
-2. 同じファイルを `FileStream` と `StreamReader` で読む。
-3. 大きなファイルを想定して、全読み込みと逐次読み込みの違いを説明する。
-
 ## 関連リンク
 
 - [Stream Class](https://learn.microsoft.com/dotnet/api/system.io.stream)

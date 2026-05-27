@@ -124,13 +124,6 @@ CRUD は単純に見えますが、status code、validation、権限、同時更
 - endpoint の中に validation、DB 操作、業務ルール、ログをすべて詰め込む。
 - 削除済み resource への再削除をどう扱うか決めていない。
 
-## 練習問題
-
-1. `GET /products/{id}` と `POST /products` を実装する。
-2. `POST` 成功時に `201 Created` と response DTO を返す。
-3. 価格が負数のとき `400 Bad Request` を返す。
-4. 存在しない ID の更新と削除で `404 Not Found` を返す。
-
 ## 関連リンク
 
 - [Minimal API](02_MinimalAPI.md)

@@ -92,13 +92,6 @@ Console.WriteLine(rounded);   // 13
 - `decimal` から `int` への cast を四捨五入だと思い込む。
 - 変換できることと、業務上有効な値であることを同じチェックにしてしまう。
 
-## 練習問題
-
-1. 数量を文字列で受け取り、`int.TryParse` で変換する。
-2. 単価を文字列で受け取り、`decimal.TryParse` で変換する。
-3. 変換できるが 0 以下の値をエラーにする。
-4. 小数を切り捨てる場合と四捨五入する場合の結果を比べる。
-
 ## 関連リンク
 
 - [Int32.TryParse Method](https://learn.microsoft.com/dotnet/api/system.int32.tryparse)

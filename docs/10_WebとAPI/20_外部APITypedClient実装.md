@@ -122,13 +122,6 @@ API key は `appsettings.json` に直書きせず、user secrets や環境変数
 - 外部 API の DTO を domain model として使い回す。
 - non-success status をすべて同じ例外にして、retry 可否や利用者への返し方を判断できない。
 
-## 練習問題
-
-1. `WeatherApiOptions` を作成し、configuration から読み込む。
-2. typed client を `AddHttpClient` で登録する。
-3. `404` と `5xx` で扱いを分ける。
-4. 外部 response DTO を内部 model に mapping する。
-
 ## 関連リンク
 
 - [外部 API 連携](12_外部API連携.md)

@@ -287,6 +287,7 @@
 ## 目的別
 
 - 環境を作りたい: [00_環境構築](00_環境構築/README.md)
+- 記事ごとの練習をまとめて解きたい: [80_演習問題](80_演習問題/README.md)
 - 文法を学びたい: [01_基礎文法](01_基礎文法/README.md)
 - クラス設計を学びたい: [02_オブジェクト指向](02_オブジェクト指向/README.md), [07_設計と実務パターン](07_設計と実務パターン/README.md)
 - LINQ を使いこなしたい: [03_コレクションとLINQ](03_コレクションとLINQ/README.md)
@@ -301,6 +302,7 @@
 ## 共通資料
 
 - [roadmap.md](roadmap.md)
+- [80_演習問題/README.md](80_演習問題/README.md)
 - [glossary.md](glossary.md)
 - [changelog.md](changelog.md)
 - [_templates/article.md](_templates/article.md)

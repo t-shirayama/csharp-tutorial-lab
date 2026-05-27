@@ -36,12 +36,6 @@ Console.WriteLine($"Hello, {normalized}");
 - 文字列比較で大文字小文字やカルチャを考えない。
 - ループ内で大量の文字列連結を行う。
 
-## 練習問題
-
-1. 空白だけの文字列を未入力として判定する。
-2. 大文字小文字を無視してキーワード検索する。
-3. CSV 風の文字列を `Split` で分割する。
-
 ## 関連リンク
 
 - [String](https://learn.microsoft.com/dotnet/api/system.string)

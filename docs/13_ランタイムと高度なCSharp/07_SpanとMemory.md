@@ -44,12 +44,6 @@ Console.WriteLine($"{year}/{month}/{day}");
 - async method をまたいで `Span<T>` を保持しようとする。
 - 読みやすさより先に micro optimization を優先する。
 
-## 練習問題
-
-1. 日付文字列を `ReadOnlySpan<char>` で分割する。
-2. `Substring` と `AsSpan` の違いを調べる。
-3. `Memory<T>` が必要になる場面を調べる。
-
 ## 関連リンク
 
 - [Memory and spans](https://learn.microsoft.com/dotnet/standard/memory-and-spans/)
