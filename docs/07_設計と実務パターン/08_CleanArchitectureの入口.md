@@ -55,12 +55,6 @@ public interface IOrderRepository
 - UseCase が薄く、ただの中継コードになる。
 - 小さな CRUD に過剰な層を作る。
 
-## 練習問題
-
-1. Domain が Infrastructure に依存していないか確認する。
-2. TODO 作成処理を UseCase として切り出す。
-3. DB をメモリ実装に差し替えられる設計を考える。
-
 ## 関連リンク
 
 - [Common web application architectures](https://learn.microsoft.com/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures)

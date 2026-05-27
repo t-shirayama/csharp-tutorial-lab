@@ -54,12 +54,6 @@ Console.WriteLine($"{price.Amount} {price.Currency}");
 - 変更可能な property を持たせ、コピー後の変更で混乱する。
 - `default` 値で不正な状態が作られることを忘れる。
 
-## 練習問題
-
-1. `Point2D` struct を作り、`X` と `Y` を持たせる。
-2. `readonly struct` にして、作成後に変更できないことを確認する。
-3. `default(Point2D)` の値を確認する。
-
 ## 関連リンク
 
 - [Structure types](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/struct)

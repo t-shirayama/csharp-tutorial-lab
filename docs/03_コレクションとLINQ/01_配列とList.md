@@ -67,12 +67,6 @@ public class ScoreBoard
 
 collection の公開方法や列挙中の変更については、[コレクションの公開と変更](16_コレクションの公開と変更.md) で扱います。
 
-## 練習問題
-
-1. 文字列の配列を作り、全要素を表示する。
-2. `List<int>` に点数を追加して平均を計算する。
-3. 空のリストを返すメソッドを書き、null を返さない理由を説明する。
-
 ## 関連リンク
 
 - [Arrays](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/arrays)

@@ -89,13 +89,6 @@ dotnet add package Microsoft.Extensions.Logging.Abstractions
 - cache 削除を何度も繰り返し、根本原因を確認しない。
 - token を含む `NuGet.config` をそのまま共有する。
 
-## 練習問題
-
-1. `dotnet restore` を実行し、成功することを確認する。
-2. `dotnet nuget list source` で package source を確認する。
-3. `dotnet nuget locals all --list` で cache の場所を確認する。
-4. package を1つ追加し、`.csproj` の差分を確認する。
-
 ## 関連リンク
 
 - [NuGet documentation](https://learn.microsoft.com/nuget/)

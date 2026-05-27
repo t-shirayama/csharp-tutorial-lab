@@ -110,12 +110,6 @@ Minimal API の例では、endpoint 定義を extension method に逃がして `
 - endpoint ごとに validation や error response の形式がばらつく。
 - team の既存 pattern を無視して、個人の好みだけで混在させる。
 
-## 練習問題
-
-1. 同じ `GET /products/{id}` を Minimal API と Controller で書き比べる。
-2. `IProductService` を使う形にして、業務処理を endpoint から分離する。
-3. endpoint が10個以上になる想定で、どちらが読みやすいか比較する。
-
 ## 関連リンク
 
 - [Minimal API](02_MinimalAPI.md)

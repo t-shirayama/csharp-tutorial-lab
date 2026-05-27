@@ -108,12 +108,6 @@ Hello, World!
 
 現場ではソリューション、複数プロジェクト、テストプロジェクトを `dotnet` CLI で操作する場面があります。Visual Studio を使う場合でも、CLI の基本を知っていると CI/CD やトラブル調査で役立ちます。
 
-## 練習問題
-
-1. `HelloCSharp` というコンソールアプリを作成する。
-2. `Console.WriteLine` の文字列を自分の名前に変更する。
-3. `dotnet run` で変更が反映されることを確認する。
-
 ## 関連リンク
 
 - [.NET を Windows にインストールする](https://learn.microsoft.com/dotnet/core/install/windows)

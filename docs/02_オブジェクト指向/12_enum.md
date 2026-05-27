@@ -49,12 +49,6 @@ if (status == OrderStatus.Submitted)
 - `0` の値を定義せず、既定値が意味不明になる。
 - 状態遷移のルールまで enum だけで表そうとする。
 
-## 練習問題
-
-1. `PaymentMethod` enum を作る。
-2. `switch` 式で表示名を返す。
-3. 未知の値を受け取った場合の扱いを考える。
-
 ## 関連リンク
 
 - [Enumeration types](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/enum)

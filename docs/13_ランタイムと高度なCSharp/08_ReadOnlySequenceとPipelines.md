@@ -48,12 +48,6 @@ foreach (var segment in sequence)
 - buffer の消費位置を進めず、同じデータを読み続ける。
 - 複数 segment にまたがる値を単一 span 前提で処理する。
 
-## 練習問題
-
-1. byte array から `ReadOnlySequence<byte>` を作る。
-2. segment を列挙して値を出力する。
-3. `Stream`、`Span<T>`、`PipeReader` の使い分けを説明する。
-
 ## 関連リンク
 
 - [System.IO.Pipelines](https://learn.microsoft.com/dotnet/standard/io/pipelines)

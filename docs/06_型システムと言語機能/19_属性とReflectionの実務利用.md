@@ -109,12 +109,6 @@ framework 連携では attribute をよく使います。自作 attribute と re
 
 performance が重要な処理では、reflection の結果を cache する、source generator を使う、手書き mapping にするなどの選択肢を比較します。
 
-## 練習問題
-
-1. `ExportColumnAttribute` を作り、property に表示名を付ける。
-2. reflection で attribute を読み取り、CSV header を作る。
-3. 同じ変換を手書き mapping で書き、どちらが読みやすいか比較する。
-
 ## 関連リンク
 
 - [Attributes](https://learn.microsoft.com/dotnet/csharp/advanced-topics/reflection-and-attributes/)

@@ -94,12 +94,6 @@ var user = duplicatedUsers.Single(user => user.Email == "same@example.com");
 
 一意制約が DB にある場合でも、アプリ側で `SingleOrDefault` を使うと「重複は異常」という意図が伝わります。ただし、性能や query の読みやすさも考え、必要に応じて DB 制約、validation、例外処理を組み合わせます。
 
-## 練習問題
-
-1. 商品コードで商品を1件検索する処理を `SingleOrDefault` で書く。
-2. 有効な user の先頭だけを `FirstOrDefault` で取得し、見つからない場合を表示する。
-3. `First` と `Single` がそれぞれ例外になる条件を確認する。
-
 ## 関連リンク
 
 - [Element operations](https://learn.microsoft.com/dotnet/csharp/linq/standard-query-operators/element-operations)

@@ -41,12 +41,6 @@ writer.WriteLine("Hello");
 - `HttpClient` を request ごとに `using` し、接続プールを壊す。
 - `Dispose` 後の object を再利用する。
 
-## 練習問題
-
-1. `StreamWriter` で UTF-8 のファイルを書き込む。
-2. `using var` を外した場合、どのような問題が起き得るか説明する。
-3. `IDisposable` を実装すべき class と不要な class を 3 つずつ挙げる。
-
 ## 関連リンク
 
 - [IDisposable Interface](https://learn.microsoft.com/dotnet/api/system.idisposable)

@@ -90,13 +90,6 @@ public interface IProductQueryService
 - page 番号が 0 始まりか 1 始まりかを決めない。
 - 認可条件を検索条件に含め忘れ、他ユーザーのデータが見える。
 
-## 練習問題
-
-1. `page` と `pageSize` を query parameter で受け取る。
-2. `pageSize` の最大値を 100 に制限する。
-3. `sort` の許可項目を `name` と `createdAt` に限定する。
-4. `items` と `totalCount` を含む response を返す。
-
 ## 関連リンク
 
 - [Request / Response](05_RequestResponse.md)

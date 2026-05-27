@@ -58,12 +58,6 @@ var activeCustomers = customers
 - 副作用が混ざっていないか。
 - `ToList()` の位置が適切か。
 
-## 練習問題
-
-1. 長い LINQ chain を途中変数で分ける。
-2. 複雑な predicate を method に切り出す。
-3. 副作用のある LINQ を `foreach` に書き換える。
-
 ## 関連リンク
 
 - [LINQ in C#](https://learn.microsoft.com/dotnet/csharp/linq/)

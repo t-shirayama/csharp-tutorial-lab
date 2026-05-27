@@ -40,12 +40,6 @@ Console.WriteLine(string.Join(",", middle)); // 20,30,40
 - 空配列に `^1` を使って例外にする。
 - コピーが発生する場面で、大きな配列を頻繁に slice する。
 
-## 練習問題
-
-1. 文字列の先頭 3 文字を取り出す。
-2. 配列の最後の要素を `^1` で取る。
-3. `..`, `1..`, `..^1` の意味を確認する。
-
 ## 関連リンク
 
 - [Indices and ranges](https://learn.microsoft.com/dotnet/csharp/tutorials/ranges-indexes)

@@ -54,12 +54,6 @@ Console.WriteLine(count);
 - `out` parameter を複数使い、戻り値の意味を読みにくくする。
 - performance 理由なしに `in` を使う。
 
-## 練習問題
-
-1. `int.TryParse` の成功時と失敗時を確認する。
-2. `ref` を使う method を戻り値で書き換える。
-3. `in` が必要になりそうな大きな struct の例を調べる。
-
 ## 関連リンク
 
 - [Method parameters](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/method-parameters)

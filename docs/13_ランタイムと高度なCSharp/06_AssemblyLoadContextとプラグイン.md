@@ -79,13 +79,6 @@ plugin を unload したい場合は、plugin instance、Type、Assembly、deleg
 - version 違いの依存 assembly を想定せず load error にする。
 - plugin から host の内部型へ直接依存させ、contract 境界を壊す。
 
-## 練習問題
-
-1. `AssemblyLoadContext.Default` の意味を調べる。
-2. unload 可能な context が回収されない原因を調べる。
-3. plugin を interface 経由で呼ぶ設計を考える。
-4. plugin の依存 assembly が見つからないときの調査手順を説明する。
-
 ## 関連リンク
 
 - [AssemblyLoadContext Class](https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext)

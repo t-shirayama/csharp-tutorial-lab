@@ -84,13 +84,6 @@ dotnet new globaljson --sdk-version 10.0.100 --roll-forward latestFeature
 - `global.json` の `version` に `10.0.x` のような無効な表記を書く。
 - `global.json` を project folder ではなく別の階層に置き、意図した場所で効いていない。
 
-## 練習問題
-
-1. `dotnet --list-sdks` でインストール済み SDK を確認する。
-2. `global.json` を作成する。
-3. `dotnet --version` の表示が変わるか確認する。
-4. CI で使う SDK バージョンも同じにする方針を書く。
-
 ## 関連リンク
 
 - [global.json overview](https://learn.microsoft.com/dotnet/core/tools/global-json)

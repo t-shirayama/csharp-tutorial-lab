@@ -45,12 +45,6 @@ public class ConsoleMessageSender : IMessageSender
 - interface が大きすぎて、実装クラスに不要なメソッドを強制する。
 - 名前が `IManager` や `IService` だけで、何をする契約か分からない。
 
-## 練習問題
-
-1. `IClock` interface を作り、現在時刻を返すメソッドを定義する。
-2. `SystemClock` で実装する。
-3. テスト用に固定時刻を返す `FixedClock` を作る。
-
 ## 関連リンク
 
 - [Interfaces](https://learn.microsoft.com/dotnet/csharp/fundamentals/types/interfaces)

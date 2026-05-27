@@ -55,12 +55,6 @@ Interlocked.Increment(ref count);
 - `lock` 内で `await` しようとする。
 - thread-safe ではない collection を複数 thread から更新する。
 
-## 練習問題
-
-1. 複数 task から同じ `int` を更新し、結果がずれる例を作る。
-2. `lock` で守る。
-3. `Interlocked.Increment` に置き換える。
-
 ## 関連リンク
 
 - [lock statement](https://learn.microsoft.com/dotnet/csharp/language-reference/statements/lock)

@@ -106,13 +106,6 @@ public class ScopedWorker : BackgroundService
 - 失敗時のログ、再試行、通知、停止方針があるか。
 - 多重起動や重複実行に耐えられるか。
 
-## 練習問題
-
-1. 10秒ごとにログを出す `BackgroundService` を作る。
-2. `CancellationToken` を `Task.Delay` と下位処理へ渡す。
-3. Scoped サービスを使う worker に書き換える。
-4. 例外が起きたときに再試行するか停止するか方針を書く。
-
 ## 関連リンク
 
 - [Worker Services in .NET](https://learn.microsoft.com/dotnet/core/extensions/workers)

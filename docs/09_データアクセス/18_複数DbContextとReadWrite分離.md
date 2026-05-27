@@ -61,13 +61,6 @@ public sealed class ReportingDbContext(DbContextOptions<ReportingDbContext> opti
 - transaction 境界を広げすぎて、障害時の復旧が難しくなる。
 - read / write 分離を入れたのに、同期遅延を API 仕様に書かない。
 
-## 練習問題
-
-1. DbContext を分けるべき兆候を3つ挙げる。
-2. 読み取り専用 view を EF Core に mapping する。
-3. read / write 分離で起きる整合性の問題を説明する。
-4. migration を context ごとに分ける手順を調べる。
-
 ## 関連リンク
 
 - [DbContext と Entity](04_DbContextとEntity.md)

@@ -77,12 +77,6 @@ Console.WriteLine(namesByCode["p-001"]); // Keyboard
 - 大文字小文字の扱いを決めずに文字列キーを使う。
 - Dictionary に業務ルールを隠しすぎて、意図が読みにくくなる。
 
-## 練習問題
-
-1. 商品コードから商品名を引く Dictionary を作る。
-2. `TryGetValue` で存在チェックする。
-3. 文字列一覧の出現回数を Dictionary で集計する。
-
 ## 関連リンク
 
 - [Dictionary<TKey,TValue>](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)

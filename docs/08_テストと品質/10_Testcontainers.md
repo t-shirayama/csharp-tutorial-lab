@@ -77,13 +77,6 @@ EF Core の migration、SQL の互換性、トランザクション、unique 制
 - migration を含めて検証しているか。
 - CI で実行可能な時間と環境か。
 
-## 練習問題
-
-1. PostgreSQL コンテナを起動する fixture を作る。
-2. EF Core の `DbContext` に接続文字列を渡す。
-3. migration を適用して簡単な CRUD テストを書く。
-4. unit test と integration test の実行タイミングを分ける方針を書く。
-
 ## 関連リンク
 
 - [Testcontainers for .NET](https://dotnet.testcontainers.org/)

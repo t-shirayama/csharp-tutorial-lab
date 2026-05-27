@@ -45,12 +45,6 @@ static async Task ImportAsync(IProgress<int> progress, CancellationToken cancell
 - 処理本体から直接 UI component を更新する。
 - 通知頻度が高すぎて UI や log を詰まらせる。
 
-## 練習問題
-
-1. console に進捗率を出す `Progress<int>` を作る。
-2. `CancellationToken` で途中停止できるようにする。
-3. 進捗通知の間隔を 1% と 10% で比較する。
-
 ## 関連リンク
 
 - [IProgress&lt;T&gt; Interface](https://learn.microsoft.com/dotnet/api/system.iprogress-1)

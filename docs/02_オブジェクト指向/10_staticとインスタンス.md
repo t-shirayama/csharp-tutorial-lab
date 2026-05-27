@@ -55,12 +55,6 @@ public class OrderService
 - `static` mutable state を共有してテストが不安定になる。
 - DI で差し替えたい依存を `static` method 内で直接作る。
 
-## 練習問題
-
-1. 純粋な計算処理を `static` method にする。
-2. 現在時刻を使う処理を `IClock` に分ける。
-3. `static` がテストを難しくする例を説明する。
-
 ## 関連リンク
 
 - [Static classes and static class members](https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)

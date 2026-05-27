@@ -105,13 +105,6 @@ public class ExternalApiClient
 - 開発、検証、本番で値をどう切り替えるか説明できるか。
 - secret と config を分けて扱っているか。
 
-## 練習問題
-
-1. `ExternalApiOptions` を作って `appsettings.json` から bind する。
-2. `TimeoutSeconds` が 0 以下なら起動時エラーにする。
-3. 環境変数で `ExternalApi__BaseUrl` を上書きする。
-4. 秘密情報にすべき設定値を分類する。
-
 ## 関連リンク
 
 - [Options pattern in .NET](https://learn.microsoft.com/dotnet/core/extensions/options)

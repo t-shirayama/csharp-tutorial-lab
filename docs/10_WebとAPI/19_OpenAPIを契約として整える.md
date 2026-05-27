@@ -81,13 +81,6 @@ if (app.Environment.IsDevelopment())
 - Swagger UI を production へ無条件公開する。
 - version を上げても OpenAPI document や client 生成を更新しない。
 
-## 練習問題
-
-1. `GET /products/{id}` に `200`、`404`、`500` の response metadata を付ける。
-2. `POST /products` に request body と `201` response を明示する。
-3. 認証が必要な endpoint を OpenAPI 上で分かるようにする。
-4. Development 以外では OpenAPI endpoint を公開しない設定にする。
-
 ## 関連リンク
 
 - [OpenAPI](08_OpenAPI.md)

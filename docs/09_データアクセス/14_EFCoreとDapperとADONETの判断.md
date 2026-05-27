@@ -48,12 +48,6 @@ Dapper は SQL をそのまま書き、結果を `Product` に mapping します
 - SQL 文字列を連結して injection risk を作る。
 - 複数方式を無秩序に混ぜる。
 
-## 練習問題
-
-1. EF Core の query と同じ条件を Dapper SQL で書く。
-2. どちらが読みやすいか、変更に強いかを比較する。
-3. 自分のプロジェクトならどこに SQL を置くか決める。
-
 ## 関連リンク
 
 - [EF Core](https://learn.microsoft.com/ef/core/)

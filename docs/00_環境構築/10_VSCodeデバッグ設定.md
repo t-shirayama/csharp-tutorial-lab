@@ -95,13 +95,6 @@ Console.WriteLine($"小計: {subtotal}円");
 - breakpoint が薄い表示のままで、実際には有効になっていない。
 - Release build や最適化の影響で、期待通りに停止しないことを見落とす。
 
-## 練習問題
-
-1. `Program.cs` に breakpoint を置いて `F5` で止める。
-2. Variables view で変数の値を確認する。
-3. Step Over で1行ずつ進める。
-4. `dotnet build` が失敗する状態にして、debug 前に build error が出ることを確認する。
-
 ## 関連リンク
 
 - [Debug C# in Visual Studio Code](https://code.visualstudio.com/docs/csharp/debugging)

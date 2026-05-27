@@ -49,12 +49,6 @@ var products = await dbContext.Products
 - lazy loading により、ループ内で大量 query を発行する。
 - `DbContext` を長く保持しすぎ、Change Tracker が肥大化する。
 
-## 練習問題
-
-1. 一覧取得 query に `AsNoTracking()` を付ける。
-2. `Include` と projection の SQL の違いを確認する。
-3. 更新処理で tracking が必要な理由を説明する。
-
 ## 関連リンク
 
 - [Change tracking in EF Core](https://learn.microsoft.com/ef/core/change-tracking/)

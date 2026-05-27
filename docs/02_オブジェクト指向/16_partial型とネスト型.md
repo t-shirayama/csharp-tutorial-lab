@@ -60,12 +60,6 @@ var status = Order.Status.Submitted;
 - partial 定義が複数ファイルに散らばり、責務が見えなくなる。
 - nested type を多用して参照しにくくする。
 
-## 練習問題
-
-1. `partial class` を 2 つのファイルに分ける例を作る。
-2. nested enum を持つ class を作る。
-3. partial を使わず責務分割できないか考える。
-
 ## 関連リンク
 
 - [Partial classes and methods](https://learn.microsoft.com/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)

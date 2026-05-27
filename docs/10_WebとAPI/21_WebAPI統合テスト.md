@@ -109,13 +109,6 @@ routing、middleware、認証認可、serialization、validation、error respons
 - test data の初期化と後片付けを決めない。
 - unit test と integration test の責務を混ぜ、遅く不安定な test だけになる。
 
-## 練習問題
-
-1. `GET /products/{id}` の `404` を統合テストで確認する。
-2. `POST /products` の `201` と response body を確認する。
-3. validation error の `ProblemDetails` を確認する。
-4. test 用 service に差し替えて外部依存をなくす。
-
 ## 関連リンク
 
 - [Integration tests in ASP.NET Core](https://learn.microsoft.com/aspnet/core/test/integration-tests)

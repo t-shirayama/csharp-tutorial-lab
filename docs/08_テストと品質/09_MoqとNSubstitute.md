@@ -92,13 +92,6 @@ public class FixedClock : IClock
 - 手書き stub で十分ではないか。
 - 依存が多すぎる場合、service を分割すべきではないか。
 
-## 練習問題
-
-1. `IClock` を Moq または NSubstitute で差し替える。
-2. 同じテストを手書き stub で書き換える。
-3. どちらが読みやすいか説明する。
-4. 呼び出し回数検証が必要な例と不要な例を挙げる。
-
 ## 関連リンク
 
 - [Unit testing best practices](https://learn.microsoft.com/dotnet/core/testing/unit-testing-best-practices)

@@ -49,12 +49,6 @@ public record SaleSummary(string Area, int Count, decimal TotalAmount);
 - `GroupBy` 後の型が分からず、処理を複雑にする。
 - null や空文字のキーをどう扱うか決めていない。
 
-## 練習問題
-
-1. 点数一覧を科目別に合計する。
-2. 商品一覧をカテゴリ別に件数集計する。
-3. 集計結果を record に変換する。
-
 ## 関連リンク
 
 - [Group query results](https://learn.microsoft.com/dotnet/csharp/linq/group-query-results)

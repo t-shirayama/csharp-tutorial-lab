@@ -115,13 +115,6 @@ public class PriceCalculatorTests
 - repository root ではなく project directory だけで確認してしまう。
 - test framework の package restore 失敗を build error と混同する。
 
-## 練習問題
-
-1. `SampleApp` solution を作成する。
-2. `src/` に class library、`tests/` に xUnit project を作る。
-3. test project から本体 project を参照する。
-4. 最小の計算 method と test を追加し、`dotnet test` を成功させる。
-
 ## 関連リンク
 
 - [dotnet sln](https://learn.microsoft.com/dotnet/core/tools/dotnet-sln)

@@ -37,12 +37,6 @@ runtime mismatch、container image、production 障害調査、AOT / trimming、
 - C# の文法機能と .NET runtime の機能を混同する。
 - managed code なら resource 解放を一切気にしなくてよいと思う。
 
-## 練習問題
-
-1. `dotnet --info` と runtime 情報出力を見比べる。
-2. SDK と runtime の違いを説明する。
-3. managed code と unmanaged resource の違いを調べる。
-
 ## 関連リンク
 
 - [.NET fundamentals](https://learn.microsoft.com/dotnet/fundamentals/)

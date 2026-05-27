@@ -72,13 +72,6 @@ Console.WriteLine(content);
 - 小さなファイル処理で stream を手書きしすぎて、かえって複雑にする。
 - `finally` で手動解放するコードを書き、null check や例外時の扱いを漏らす。
 
-## 練習問題
-
-1. `StreamWriter` と `using` を使ってテキストファイルを書く。
-2. `StreamReader` と `using` を使ってテキストファイルを読む。
-3. 同じ処理を `File.WriteAllText` / `File.ReadAllText` で書き換える。
-4. `using` のブロック外で writer を使えないことを確認する。
-
 ## 関連リンク
 
 - [using statement](https://learn.microsoft.com/dotnet/csharp/language-reference/statements/using)
